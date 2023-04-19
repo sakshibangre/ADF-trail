@@ -1,5 +1,10 @@
 {
 	"name": "traildf-datafactory2023",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true"
+		}
+	},
 	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",
