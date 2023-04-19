@@ -1,0 +1,9 @@
+{
+	"name": "traildf-datafactory2023",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e71b6c16-9006-4564-9e5f-98f9d6a28f1c",
+		"tenantId": "e09e7089-274f-4242-ab3c-cbb15da83238"
+	}
+}
