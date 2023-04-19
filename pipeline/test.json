@@ -39,8 +39,27 @@
 						"type": "TabularTranslator",
 						"mappings": [
 							{
+								"source": {
+									"name": "name",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
+									"type": "String",
+									"physicalType": "String",
 									"ordinal": 1
+								}
+							},
+							{
+								"source": {
+									"name": "company",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"type": "String",
+									"physicalType": "String",
+									"ordinal": 2
 								}
 							}
 						],
