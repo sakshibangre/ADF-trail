@@ -5,10 +5,6 @@
 		"typeProperties": {
 			"sources": [
 				{
-					"dataset": {
-						"referenceName": "emp",
-						"type": "DatasetReference"
-					},
 					"name": "source1"
 				}
 			],
@@ -28,17 +24,12 @@
 				}
 			],
 			"scriptLines": [
-				"parameters{",
-				"     cont_name as string,",
-				"     file_name as string",
-				"}",
 				"source(output(",
 				"          name as string,",
 				"          company as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
-				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> source1",
+				"     validateSchema: false) ~> source1",
 				"source1 sort(asc(name, true),",
 				"     caseInsensitive: true) ~> sort1",
 				"sort1 sink(allowSchemaDrift: true,",
