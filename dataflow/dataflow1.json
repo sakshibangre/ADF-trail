@@ -28,6 +28,10 @@
 				}
 			],
 			"scriptLines": [
+				"parameters{",
+				"     cont_name as string,",
+				"     file_name as string",
+				"}",
 				"source(output(",
 				"          name as string,",
 				"          company as string",
